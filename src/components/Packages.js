@@ -24,7 +24,7 @@ const Packages = ({ packages, event }) => {
     );
   }
 
-  return <div className="sideBar">{rows()}</div>;
+  return <div className="packages">{rows()}</div>;
 };
 
 export default Packages;

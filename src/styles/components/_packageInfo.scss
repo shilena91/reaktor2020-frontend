@@ -1,0 +1,13 @@
+.packageInfo {
+  top: 50px;
+  margin-left: 300px;
+  position: fixed;
+  width: auto;
+  max-width: 700px;
+}
+
+.packageInfo .description {
+  max-height: 25vh;
+  overflow: auto;
+  padding-right: 10px;
+}

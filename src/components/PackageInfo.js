@@ -9,7 +9,7 @@ const Description = ({ rows }) => {
       return <p key={i}>{row}</p>;
     });
   if (renderDescription().length === 0) return null;
-  return <div className="description">{renderDescription()}</div>;
+  return <div className="package description">{renderDescription()}</div>;
 };
 
 const Depends = ({ depends, event }) => {
@@ -55,7 +55,7 @@ const ReverseDepends = ({ reDepends, event }) => {
 
 const PackageInfo = ({ pack, event }) => {
   return (
-    <div className="info">
+    <div className="packageInfo">
       <h3>{pack.Package}</h3>
       <Description rows={pack.Description} />
       <Depends depends={pack.Depends} event={event} />

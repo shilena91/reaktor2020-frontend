@@ -1,0 +1,15 @@
+.depends {
+  width: 50%;
+  float: left;
+}
+
+.depends .packages {
+  height: 40vh;
+  overflow: auto;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.depends .packages li {
+  list-style-type: disc;
+}
