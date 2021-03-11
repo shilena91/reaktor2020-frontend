@@ -13,4 +13,4 @@ The app fetches information from an API and show them. You can see how the API i
 - In the file ```package.json```, find the section ```"scripts"```, change ```"start": "node server.js"``` to ```"start": "react-scripts start"```.
   You can remove testing depedencies in that file (```@testing_library/...```) if you don't want to install them, it won't prevent the app from running.
 - Run ```npm install```
-- Run ```nmp start``` to start the app.
+- Run ```npm start``` to start the app.
